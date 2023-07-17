@@ -1,0 +1,9 @@
+-what is The main difference between structure and claas?
+-The main difference is member variables of the structure are
+ public by default while class member variables are private .
+
+
+Multiple Inheritance: C++ supports multiple inheritance, allowing a 
+class to inherit from multiple base classes. Java, however, does not support
+multiple inheritance directly. It uses interfaces to achieve similar functionality, 
+where a class can implement multiple interfaces
