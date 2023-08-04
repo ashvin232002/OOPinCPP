@@ -44,4 +44,11 @@
 
 
    --Virtual Function
+
+
+    - key points
+     -Multiple inheritance is supported in c++ not supported in java
+     - due to multiple inheritance the concept of ambguity arised which can be solved using scope ressolution operator <br/>
+       while in java the concept of interfaces arised.
+     -
 </pre>
