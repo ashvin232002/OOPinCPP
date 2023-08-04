@@ -20,6 +20,7 @@
     15.Function Overloading and Function Overriding 
     16.Operator Overloading 
     17.Introduction to virtual Functions
+    18. Diamond Problem
 
     ***************** OOP Pillars *******************************************
     Four Pillars of Object Oriented Programming 
