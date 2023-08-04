@@ -48,7 +48,13 @@
 
     - key points
      -Multiple inheritance is supported in c++ not supported in java
-     - due to multiple inheritance the concept of ambguity arised which can be solved using scope ressolution operator <br/>
+     - due to multiple inheritance the concept of ambguity arised which can be solved using scope ressolution operator 
        while in java the concept of interfaces arised.
-     -
+     - in c++ for the run time polymorphism the virtual method wold be used while in java the concept of abstract class and 
+       abstarct method would be used.
+     - The friend function is only supported in c++ Not supported in java
+     - In java the access modifiers are public, private , protected , package private 
+       In c++ the access modifiers are public ,private , protected .
+     - Java employes automatic collection where JVM (java Virtual Machine) that automatically manages the memory, objects that are no longer in use.
+       C++ offers the smart manual memory management  using the pointer.
 </pre>
