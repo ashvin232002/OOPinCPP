@@ -20,7 +20,9 @@
     15.Function Overloading and Function Overriding 
     16.Operator Overloading 
     17.Introduction to virtual Functions
-    18. Diamond Problem
+    18.Diamond Problem
+    19.Deep copy(The other copy would be created) and shallow copy(copy through  location)
+    
 
     ***************** OOP Pillars *******************************************
     Four Pillars of Object Oriented Programming 
