@@ -60,4 +60,5 @@
        In c++ the access modifiers are public ,private , protected .
      - Java employes automatic collection where JVM (java Virtual Machine) that automatically manages the memory, objects that are no longer in use.
        C++ offers the smart manual memory management  using the pointer.
+     - we can not create a object of a abstarct class in java.
 </pre>
