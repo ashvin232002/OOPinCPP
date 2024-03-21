@@ -24,7 +24,10 @@ class Human {
 class Male : private Human{
     public:
     string color;
-
+   
+    Male(string c ){
+      this->color  = c;
+    }
     void sleep(){
         cout<<"Male Sleeping"<<endl;
     }
@@ -36,8 +39,9 @@ class Male : private Human{
 
 int main(){
 
-    Male object1;
+    Male object1("hell");
 
+    cout<<object1.color<<endl;//This can be accessible.
     //cout<<object1.hight<<endl;//private so can not assessible outside the class
     cout<<object1.getHeight()<<endl;//can be accessible using getter ans setter
     return  0;
