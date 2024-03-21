@@ -23,7 +23,7 @@ class Human {
 
 
 
-class Male : public Human{
+class Male : private Human{
     public:
     string color;
 
@@ -32,18 +32,15 @@ class Male : public Human{
     }
     
     int getHeight(){
-        // return this->hight;//not assesible
+        return this->hight;//not assesible
     }
 };
 
-// int main(){
+int main(){
 
-//     Male object1;
+    Male object1;
 
-//     //cout<<object1.hight<<endl;//privately Inherited so can not assessible outside the class
-//      cout<<object1.getHeight()<<endl;//can be accessible using getter ans setter
-//     return  0;
-// }
-
-
-
+    //cout<<object1.hight<<endl;//privately Inherited so can not assessible outside the class
+     cout<<object1.getHeight()<<endl;//can be accessible using getter ans setter
+    return  0;
+}
