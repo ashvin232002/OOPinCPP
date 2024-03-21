@@ -2,12 +2,7 @@
 using namespace std;
 
 
-int main(){
 
-
-    return 0 ;
-
-}
 //parent class   =  (member dataType)protected 
 //child class  =  (Inheritance Type)protected
 
@@ -19,6 +14,9 @@ class Human {
      int weight;
      int age;
 
+    Human(int h){
+      this->hight = h;
+    }
     int getAge(){
         return this->age;
     }
@@ -30,9 +28,11 @@ class Human {
 
 
 
-class Male : public Human{
+class Male : protected Human{
     public:
     string color;
+     
+    Male(int h):Human(h){}
 
     void sleep(){
         cout<<"Male Sleeping"<<endl;
@@ -45,8 +45,8 @@ class Male : public Human{
 
 int main(){
 
-    Male object1;
-
+    Male object1(10);
+  
      //cout<<object1.hight<<endl;//protected so can not assessible outside the class
     cout<<object1.getHeight()<<endl;//can be accessible using getter ans setter
     return  0;
